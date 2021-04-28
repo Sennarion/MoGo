@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <title>MoGo</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="intro__wrapper">
+        <section class="intro__wrapper">
             <header class="header box">
                 <div class="header__logo">
                     <a href="#">MoGo</a>
@@ -23,25 +25,13 @@
                         <li><a class="nav__link" href="#">Contact</a></li>
                     </ul>
                     <div class="header__buttons">
-                       <a href="#" class="shopping-cart__icon">
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="18px" height="15px">
-                        <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
-                            d="M17.726,3.663 L17.727,3.663 L15.252,9.163 L15.252,9.163 C15.130,9.434 14.866,9.628 14.555,9.648 L14.555,9.648 L7.427,10.123 L7.839,11.299 L15.600,11.299 C16.511,11.299 17.250,12.039 17.250,12.950 C17.250,13.861 16.511,14.600 15.600,14.600 C14.689,14.600 13.950,13.861 13.950,12.950 L6.250,12.950 C6.250,13.861 5.511,14.600 4.600,14.600 C3.689,14.600 2.950,13.861 2.950,12.950 C2.950,12.039 3.689,11.299 4.600,11.299 L6.091,11.299 L2.915,2.225 L1.025,2.225 C0.569,2.225 0.200,1.855 0.200,1.400 C0.200,0.944 0.569,0.575 1.025,0.575 L3.500,0.575 C3.860,0.575 4.163,0.807 4.276,1.128 L4.279,1.127 L4.759,2.500 L16.975,2.500 C17.431,2.500 17.800,2.869 17.800,3.325 C17.800,3.445 17.773,3.559 17.726,3.663 ZM5.337,4.150 L6.862,8.507 L13.951,8.034 L15.699,4.150 L5.337,4.150 Z"/>
-                       </svg>
-                       </a>
-                       <a href="#" class="search__icon">
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="18px" height="18px">
-                        <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
-                            d="M17.317,14.983 C17.615,15.281 17.800,15.694 17.800,16.150 C17.800,17.061 17.061,17.800 16.150,17.800 C15.694,17.800 15.282,17.615 14.983,17.316 L14.983,17.316 L10.147,12.481 C9.165,13.061 8.023,13.400 6.800,13.400 C3.155,13.400 0.200,10.445 0.200,6.800 C0.200,3.155 3.155,0.200 6.800,0.200 C10.445,0.200 13.400,3.155 13.400,6.800 C13.400,8.023 13.061,9.165 12.481,10.147 L17.317,14.983 L17.317,14.983 ZM6.800,1.850 C4.066,1.850 1.850,4.066 1.850,6.800 C1.850,9.534 4.066,11.750 6.800,11.750 C9.534,11.750 11.750,9.534 11.750,6.800 C11.750,4.066 9.534,1.850 6.800,1.850 Z"/>
-                       </svg>
-                       </a>
-                       <button class="header__burger">
+                        <a href="#" class="shopping-cart__icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <a href="#" class="search__icon">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <button class="header__burger">
                             <div class="span__wrapper">
                                 <span class="first"></span>
                                 <span class="second"></span>
@@ -93,9 +83,160 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="about__wrapper">
+            <div class="about box">
+                <div class="section__header">
+                    <span class="section__subtitle">What we do</span>
+                    <h2 class="section__title">Story about us</h2>
+                    <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="section__content">
+                    <div class="about__item-list">
+                        <div class="about__item">
+                            <div class="about__item-main">
+                                <img src="images/about-item1.jpg" alt="">
+                                <div class="about__item-wrapper">
+                                    <div class="about__item-content">
+                                        <i class="fas fa-users"></i>
+                                        <span>super team</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__item-main">
+                                <img src="images/about-item2.jpg" alt="">
+                                <div class="about__item-wrapper">
+                                    <div class="about__item-content">
+                                        <i class="fas fa-keyboard"></i>
+                                        <span>great experience</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about__item">
+                            <div class="about__item-main">
+                                <img src="images/about-item3.jpg" alt="">
+                                <div class="about__item-wrapper">
+                                    <div class="about__item-content">
+                                        <i class="fas fa-crown"></i>
+                                        <span>best quality</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements__wrapper">
+            <div class="achievements box">
+                <div class="achievements__list">
+                    <div class="achievement">
+                        <span class="achievement__figure">42</span>
+                        <div class="achievement__text">Web design projects</div>
+                    </div>
+                    <div class="achievement">
+                        <span class="achievement__figure">123</span>
+                        <div class="achievement__text">Happy client</div>
+                    </div>
+                    <div class="achievement">
+                        <span class="achievement__figure">15</span>
+                        <div class="achievement__text">Award winner</div>
+                    </div>
+                    <div class="achievement">
+                        <span class="achievement__figure">99</span>
+                        <div class="achievement__text">Cup of coffee</div>
+                    </div>
+                    <div class="achievement">
+                        <span class="achievement__figure">24</span>
+                        <div class="achievement__text">Members</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills__wrapper">
+            <div class="skills box">
+                <div class="section__header skills__header">
+                    <span class="section__subtitle">We work with</span>
+                    <h2 class="section__title">Amazing services</h2>
+                </div>
+                <div class="section__content">
+                    <div class="skill__item-list">
+                        <div class="skill__item">
+                            <div class="skill__icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <div class="skill__content">
+                                <h4 class="skill__title">Photography</h4>
+                                <p class="skill__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__icon">
+                                <i class="fas fa-paint-roller"></i>
+                            </div>
+                            <div class="skill__content">
+                                <h4 class="skill__title">Web Design</h4>
+                                <p class="skill__description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor.</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="skill__content">
+                                <h4 class="skill__title">Creativity</h4>
+                                <p class="skill__description">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor.</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__icon">
+                                <i class="fas fa-key"></i>
+                            </div>
+                            <div class="skill__content">
+                                <h4 class="skill__title">Seo</h4>
+                                <p class="skill__description">Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__icon">
+                                <i class="fas fa-file-code"></i>
+                            </div>
+                            <div class="skill__content">
+                                <h4 class="skill__title">Css/Html</h4>
+                                <p class="skill__description">Lorem dolor sit amet, consectetur adipiscing elit, sed do
+                                    tempor.</p>
+                            </div>
+                        </div>
+                        <div class="skill__item">
+                            <div class="skill__icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="skill__content">
+                                <h4 class="skill__title">Digital</h4>
+                                <p class="skill__description">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    
+
     <script src="js/main.min.js"></script>
 </body>
+
 </html>
